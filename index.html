@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portifolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .border-success {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #18392B;;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    color: #0C9F0C;
+}
+.navbar{
+    background-color: #ffffff !important;
+    height: 100px;
+}
+li.px-3 a {
+    color: #008000 !important;
+    text-decoration: none; 
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight:500;
+
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #7cf03d;
+    border: 2px solid #7cf03d;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #7cf03d;
+    font-size: 16px;
+    color: #18392B;
+    font-weight: 500;
+    transition: .5s;
+    margin-top: 20px;
+}
+.card{
+    
+    box-shadow: 0 0 10px #7cf03d;
+    color: #18392B;
+    transition: .5s;
+    
+
+}
+.progress {
+    margin-bottom: 15px; 
+
+}
+.progress-bar-animated{
+    background-color:#0C9F0C;
+}
+.card {
+    height:430px; 
+    margin-bottom: 30px;
+}
+.card img, .card video {
+    object-fit: cover; /* Ensure media fits without overflowing */
+    height:200px;
+     /* Set a consistent height for images and videos */
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    background-color:  rgb(0, 72, 0);
+    color: #fff;
+    padding: 20px 0;
+    text-align: right;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.footer .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 70px;
+}
+
+.footer-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-nav li {
+    margin-left: 20px;
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+    color: #ddd;
+}
+
+    </style>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<header>
+    <nav class="navbar bg-body-tertiary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" style="margin:30px 150px 0 150px;" href="#home">Mer-World</a>
+          <form class="d-flex" role="search">
+        <ul class="nav justify-content-end">
+            <li class="active px-3"><a href="#home">Home</a></li>
+            <li class="px-3"><a href="#about">About</a></li>
+            <li class="px-3"><a href="#projects">Projects</a></li>
+            <li class="px-3" style="margin-right: 35px;"><a href="#contact">Contact</a></li>
+        </ul>
+            
+          </form>
+        </div>
+      </nav>
+</header>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 px-3 mt-5" >
+            <h1>Meronawit Dejene</h1>
+            <h2>Welcome to my Portifolio!</h2>
+            <button class="btn"><a href="#contact" style="text-decoration: none; color: #18392B;">Let's talk</a></button>
+        </div>
+        <div class="col-lg-6 mt-5">
+            <div class="rounded-circle" 
+                style="border: 5px solid #7cf03d;; width: 400px; height: 400px; display: flex; justify-content: center; align-items: center;">
+                <img src="mer-world.png" class="rounded-circle" style="width:390px; height:390px;" alt="Meronawit Dejene">
+            </div>
+        </div>
+    </div>
+</div>
+<section id="about">
+    <div class="container" style="margin-left: 40px;">
+        <div class="row align-items-center">
+            <div class="col-md-5 col-sm-12">
+                <h1 id="about">About Me</h1>
+                <p style="font-size:18px; color: #18392B;">
+                    Hi, I'm Meronawit Dejene, a passionate developer and creator. I love coding, sharing knowledge, and turning ideas into reality. My journey in the tech world has been filled with exciting projects and continuous learning. Welcome to my portfolio!
+                </p>
+            </div>
+          
+            <div class="col-md-7 col-sm-12" style="margin-top: 220px;">
+                <div>
+                
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <span class="progress-label" style="width: 100px;">HTML</span>
+                        <div class="progress" style="flex-grow: 1;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%;">70%</div>
+                        </div>
+                    </div>
+                
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <span class="progress-label" style="width: 100px;">CSS</span>
+                        <div class="progress" style="flex-grow: 1;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%;">40%</div>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <span class="progress-label" style="width: 100px;">Java</span>
+                        <div class="progress" style="flex-grow: 1;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:38%;">38%</div>
+                        </div>
+                    </div>
+                 
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <span class="progress-label" style="width: 100px;">Python</span>
+                        <div class="progress" style="flex-grow: 1;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:25%;">25%</div>
+                        </div>
+                    </div>
+                  
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <span class="progress-label" style="width: 100px;">PHP</span>
+                        <div class="progress" style="flex-grow: 1;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:55%;">55%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" style="margin-top: 40px;">
+    <h1 style="text-align: center;">Projects</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width:22rem;">
+                    <img src="act_clone.PNG" class="card-img-top" alt="act_clone">
+                    <div class="card-body">
+                      <h5 class="card-title">Act Front Page Clone</h5>
+                      <p class="card-text">This is front page clone of my collage, which taught me alot about bootstrap</p>
+                      <a href="https://mer-world.github.io/Act-FrontPage-Clone/" target="_blank" class="btn">Check it out</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width:22rem;">
+                    <img src="website.png"  class="card-img-top" alt="todolist">
+                    <div class="card-body">
+                      <h5 class="card-title">Ticket Purchasing</h5>
+                      <p class="card-text">Created Website that does digital Purchasing.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width:22rem; ">
+                    <video controls autoplay loop>
+                        <source src="My Pong Game.mp4" type="video/mp4">
+                    </video>
+                    <div class="card-body">
+                      <h5 class="card-title">Ping Pong Fame</h5>
+                      <p class="card-text">This project taught me so much about teamwork and c++.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width:22rem;">
+                    <img src="events.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">EventFinder Webistee</h5>
+                      <p class="card-text">Website which lets you find near by events based on your preferences</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width:22rem;">
+                    <img src="note-app.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Note App</h5>
+                      <p class="card-text">Developed using php.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width:22rem;">
+                    <img src="youtube clone.PNG" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Youtube Front-Page Clone</h5>
+                      <p class="card-text">This helped me understand HTML and CSS on a deeper level.</p>
+                      <a href="https://mer-world.github.io/Youtube-clone/" class="btn">Check it out</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h1 style="text-align: center; margin-top:-20px">Contact Me</h1>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                    <div class="mb-3" >
+        <label for="exampleFormControlInput1" class="form-label"> Your Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Any Comment...</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      </div>
+      <div class="col-lg-6 col-sm-12">
+        <div class="btn-sci">
+            <h3> My information</h3>
+            <div class="sci">
+                <a href="https://github.com/meronawitcoder"><i class='bx bxl-github' style="color:#008000;"></i></a>
+                <a href="https://t.me/disappointment_pandas"><i class='bx bxl-telegram'  style="color:#008000" ></i></a>
+                <a href="https://www.instagram.com/meronawit_dejene?igsh=dmdvOTB6c2ttZ3Fu"  style="color:#008000"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/meronawit-dejene-19b7b8297/"  style="color:#008000"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+        </div>
+</div>
+            </div>
+
+    </div>
+
+
+</section>
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2021 Meronawit Dejene. All rights reserved.</p>
+        <ul class="footer-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</footer>
+  </body>
+</html>
